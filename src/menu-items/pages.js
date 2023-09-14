@@ -1,9 +1,10 @@
 // assets
-import { IconKey } from '@tabler/icons';
+import { IconKey, IconPencil } from '@tabler/icons';
 
 // constant
 const icons = {
-  IconKey
+  IconKey,
+  IconPencil
 };
 
 // ==============================|| EXTRA PAGES MENU ITEMS ||============================== //

@@ -1,18 +1,18 @@
-import * as React from 'react';
-// import Box from "@mui/material/Box"
-// import TextField from "@mui/material/TextField";
+import * as React from "react";
+import Box from "@mui/material/Box";
+import TextField from "@mui/material/TextField";
 
 // project imports
-import MainCard from 'ui-component/cards/MainCard';
+import MainCard from "ui-component/cards/MainCard";
 
 // ==============================|| SAMPLE PAGE ||============================== //
 
 const AddStudent = () => (
   <MainCard title="Add Student">
-    {/* <Box
+    <Box
       component="form"
       sx={{
-        "& .MuiTextField-root": { m: 1, width: "25ch" }
+        "& .MuiTextField-root": { m: 1, width: "25ch" },
       }}
       noValidate
       autoComplete="off"
@@ -168,7 +168,7 @@ const AddStudent = () => (
           variant="standard"
         />
       </div>
-    </Box> */}
+    </Box>
   </MainCard>
 );
 
